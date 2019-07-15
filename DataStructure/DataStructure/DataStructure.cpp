@@ -2,14 +2,15 @@
 //
 
 #include "pch.h"
+#include "tree.h"
 #include <iostream>
+
+template<typename T>
+const string  BinaryTree::tree<T>::visualFile = "visualFile.md";
 
 int main()
 {
-    std::cout << "Hello World!\n"; 
-	std::cout << "Hello World!\n";
-	std::cout << "Hello World!\n";
-	std::cout << "Hello World!\n";
-
+	auto test = BinaryTree::treeTest();
+	test.testMain();
 }
 
